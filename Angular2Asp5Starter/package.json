@@ -22,6 +22,9 @@
     }
   },
   "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-typescript": "~2.10.0",
+    "gulp-watch": "~4.3.5",
     "jspm": "^0.16.24"
   }
 }
