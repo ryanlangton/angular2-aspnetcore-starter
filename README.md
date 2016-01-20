@@ -1,2 +1,7 @@
-# angular2-asp5-starter
-Angular2 and ASP.NET 5 starter pack.
+# angular2-aspnetcore-starter
+Angular2 and ASP.NET CORE starter pack.
+
+To use:
+Open a command line @ \Angular2AspNetCoreStarter
+npm install
+jspm install
