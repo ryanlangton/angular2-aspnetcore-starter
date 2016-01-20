@@ -1,0 +1,27 @@
+{
+  "name": "angular2-asp5-starter",
+  "version": "1.0.0",
+  "description": "Angular2 with Asp.net 5 starter kit.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Langton",
+  "license": "ISC",
+  "jspm": {
+    "directories": {
+      "packages": "wwwroot/jspm_packages"
+    },
+    "configFile": "wwwroot/config.js",
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.24"
+  }
+}

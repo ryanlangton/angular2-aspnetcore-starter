@@ -1,0 +1,8 @@
+﻿<ul class="nav navbar-nav navbar-right" *ngIf="isAuthenticated">
+    <li><a [routerLink]="['./Profile']">Hello {{username}}</a></li> 
+    <li><a href="javascript:void(0);" (click)="logOff()">Log off</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right" *ngIf="!isAuthenticated">
+    <li><a [routerLink]="['./Registration']">Register</a></li>
+    <li><a [routerLink]="['./LogIn']">Log in</a></li>
+</ul>
