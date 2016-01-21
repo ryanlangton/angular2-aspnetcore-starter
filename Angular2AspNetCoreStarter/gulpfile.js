@@ -5,17 +5,18 @@ var gulp = require("gulp"),
     watch = require('gulp-watch');
 
 var paths = {
+    src: "./App/",
     app: "./wwwroot/app/",
 };
 
 gulp.task("watch", function(){
-    gulp.watch(paths.app + '/**/*.ts', ['typescript']);
+    gulp.watch(paths.src + '/**/*.ts', ['typescript']);
 });
 
 gulp.task('typescript', function () {
     var tsProject = ts.createProject('./tsconfig.json');
 
-    gulp.src(paths.app + '/**/*.ts')
+    gulp.src(paths.src + '/**/*.ts')
         .pipe(ts(tsProject))
         .pipe(gulp.dest(paths.app));
 });
