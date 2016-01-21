@@ -165,6 +165,7 @@ ClientBin/
 /**/jspm_packages/
 /**/wwwroot/app/
 /**/App/**/*.js
+/**/App/**/*.map
 
 # RIA/Silverlight projects
 Generated_Code/

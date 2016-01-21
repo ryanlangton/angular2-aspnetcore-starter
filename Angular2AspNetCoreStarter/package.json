@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "angular2": "^2.0.0-beta.1",
+    "del": "^2.2.0",
     "es6-promise": "^3.0.2",
     "es6-shim": "^0.33.13",
     "gulp": "~3.9.0",
