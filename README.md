@@ -5,7 +5,7 @@ This starter pack gives you a basic website template.
 #### Frameworks
 
   - [Angular 2] Beta
-  - ASP.NET Core 1.0
+  - [ASP.NET] Core 1.0
   - [npm] (dev dependencies)
   - [jspm] (client package management)
   - [Bootstrap]
@@ -48,3 +48,4 @@ Any questions or comments feel free to submit here or drop me a line [@rlangton7
    [jspm]: <http://jspm.io/>
    [Angular 2]: <https://angular.io/>
    [npm]: <https://www.npmjs.com/>
+   [ASP.NET]: <http://www.asp.net/>
