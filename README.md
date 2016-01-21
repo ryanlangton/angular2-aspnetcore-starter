@@ -6,8 +6,8 @@ This starter pack gives you a basic website template.
 
   - [Angular 2] Beta
   - [ASP.NET] Core 1.0
-  - [npm] (dev dependencies)
-  - [jspm] (client package management)
+  - [npm] - dev dependencies
+  - [jspm] - client package management
   - [Bootstrap]
 
 #### Demonstrates
@@ -16,9 +16,9 @@ This starter pack gives you a basic website template.
    - Angular2 Components
    - Angular2 Service/Observable (see [about.service.ts])
    - Typescript (see [App folder])
-   - ASP.NET Core API (see [AboutController])
+   - [ASP.NET] Core API (see [AboutController])
    - Deep linking (see [SpaMiddleware.cs])
-   - gulp/npm build (see [gulpfile.js])
+   - gulp/[npm] build (see [gulpfile.js])
 
 #### Not implemented
 
