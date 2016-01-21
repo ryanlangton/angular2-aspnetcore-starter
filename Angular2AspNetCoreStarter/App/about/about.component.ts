@@ -7,6 +7,7 @@ import {CORE_DIRECTIVES} from 'angular2/common';
 @Component({
     selector: 'about',
     directives: [CORE_DIRECTIVES],
+    providers: [AboutService],
     templateUrl: 'app/about/about.html'
 })
 

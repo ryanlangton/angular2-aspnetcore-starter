@@ -21,7 +21,7 @@ System.config({
     "es6-shim": "github:es-shims/es6-shim@0.34.1",
     "reflect-metadata": "npm:reflect-metadata@0.1.3",
     "rxjs": "npm:rxjs@5.0.0-beta.0",
-    "zone.js": "npm:zone.js@0.5.10",
+    "zonejs": "npm:zone.js@0.5.10",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },

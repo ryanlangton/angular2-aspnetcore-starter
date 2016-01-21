@@ -1,5 +1,4 @@
-﻿//import 'zone.js';
-import 'reflect-metadata';
+﻿import 'reflect-metadata';
 import 'es6-shim';
 
 import {CORE_DIRECTIVES} from "angular2/common";

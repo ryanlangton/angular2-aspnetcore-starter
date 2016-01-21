@@ -14,9 +14,10 @@
     "configFile": "wwwroot/config.js",
     "dependencies": {
       "angular2": "npm:angular2@^2.0.0-beta.1",
+      "angular2-polyfill": "npm:angular2-polyfill@^0.0.1",
       "es6-shim": "github:es-shims/es6-shim@^0.34.1",
       "reflect-metadata": "npm:reflect-metadata@^0.1.3",
-      "zone.js": "npm:zone.js@^0.5.10"
+      "zonejs": "npm:zone.js@^0.5.10"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
