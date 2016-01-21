@@ -1,4 +1,8 @@
-﻿import {CORE_DIRECTIVES} from "angular2/common";
+﻿//import 'zone.js';
+import 'reflect-metadata';
+import 'es6-shim';
+
+import {CORE_DIRECTIVES} from "angular2/common";
 import {Component, View} from "angular2/core";
 import {RouteConfig, ROUTER_DIRECTIVES} from "angular2/router";
 import {APP_ROUTES, Routes} from "./routes.config";
