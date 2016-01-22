@@ -18,12 +18,15 @@
     "dnxcore50": { }
   },
 
-  "exclude": [ 
+  "exclude": [
     "wwwroot",
     "node_modules"
   ],
   "publishExclude": [
     "**.user",
     "**.vspscc"
-  ]
+  ],
+  "scripts": {
+    "prepublish": [ "npm install", "jspm install" ]
+  }
 }
