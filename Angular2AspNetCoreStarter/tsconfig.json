@@ -12,6 +12,7 @@
   },
   "exclude": [
     "node_modules",
+    "jspm_packages",
     "wwwroot/jspm_packages",
     "wwwroot/app"
   ]
