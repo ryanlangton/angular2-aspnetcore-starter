@@ -1,6 +1,6 @@
 # Angular 2 + ASP.NET Core Starter Template
 
-This starter pack gives you a basic website template.
+This starter pack gives you a basic website template.  See the demo at: http://angular2starter.azurewebsites.net/
 
 #### Frameworks
 
