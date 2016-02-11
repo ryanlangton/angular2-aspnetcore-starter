@@ -5,13 +5,19 @@ var del = require('del'),
     ts = require('gulp-typescript'),
     watch = require('gulp-watch');
 
-var webroot = "./wwwroot/"
+var webproj = "./Angular2AspNetCoreStarter/";
+var webroot = webproj + "wwwroot/";
+var appsource = webproj + "App/";
+var appout = webroot + "app/";
+var jspmsource = "./jspm_packages/";
+var jspmout = webroot + "jspm_packages/";
+
 var paths = {
     webroot: webroot,
-    src: "./App/",
-    app: webroot + "app/",
-    jspm: "./jspm_packages/",
-    jspm_out: webroot + "jspm_packages/"
+    src: appsource,
+    app: appout,
+    jspm: jspmsource,
+    jspm_out: jspmout
 };
 
 gulp.task('watch', ['watch-typescript', 'watch-html']);
@@ -63,4 +69,4 @@ gulp.task('clean-config', function(){
     del(paths.webroot + 'config.js'); 
 });
 
-gulp.task('default', ['build-typescript', 'copy-html']);
+gulp.task('default', ['build-typescript', 'copy-html', 'copy-jspm']);

@@ -5,13 +5,14 @@
   "author": "Ryan Langton",
   "license": "ISC",
   "scripts": {
-    "start": "dnx web",
+    "start": "dnx -p Angular2AspNetCoreStarter web",
+    "dnx": "dnvm use default -p",
     "tsc": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "jspm": {
     "dependencies": {
-      "angular2": "npm:angular2@2.0.0-beta.1",
+      "angular2": "npm:angular2@2.0.0-beta.2",
       "angular2-polyfill": "npm:angular2-polyfill@^0.0.1",
       "es6-shim": "github:es-shims/es6-shim@^0.34.1",
       "reflect-metadata": "npm:reflect-metadata@0.1.2",
@@ -25,7 +26,7 @@
     }
   },
   "devDependencies": {
-    "angular2": "2.0.0-beta.1",
+    "angular2": "2.0.0-beta.2",
     "del": "^2.2.0",
     "es6-promise": "^3.0.2",
     "es6-shim": "^0.33.13",
@@ -35,7 +36,7 @@
     "jspm": "^0.16.24",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.0",
-    "zone.js": "^0.5.10",
+    "zone.js": "0.5.10",
     "typescript": "^1.7.5"
   }
 }
