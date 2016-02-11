@@ -2,11 +2,13 @@
   "name": "angular2-aspnetcore-starter",
   "version": "1.0.0",
   "description": "Angular2 with Asp.net Core starter kit.",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Ryan Langton",
   "license": "ISC",
+  "scripts": {
+    "start": "dnx web",
+    "tsc": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "jspm": {
     "dependencies": {
       "angular2": "npm:angular2@2.0.0-beta.1",
@@ -33,6 +35,7 @@
     "jspm": "^0.16.24",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.0",
-    "zone.js": "^0.5.10"
+    "zone.js": "^0.5.10",
+    "typescript": "^1.7.5"
   }
 }
