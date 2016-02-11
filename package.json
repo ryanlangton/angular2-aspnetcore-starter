@@ -8,6 +8,7 @@
     "start": "dnx -p Angular2AspNetCoreStarter web",
     "dnx": "dnvm use default -p",
     "tsc": "tsc --watch",
+    "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "jspm": {

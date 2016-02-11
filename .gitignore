@@ -166,7 +166,7 @@ ClientBin/
 /**/wwwroot/app/
 /**/App/**/*.js
 /**/App/**/*.map
-config.js
+/**/wwwroot/config.js
 
 # RIA/Silverlight projects
 Generated_Code/

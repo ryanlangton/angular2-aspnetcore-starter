@@ -28,12 +28,21 @@ This starter pack gives you a basic website template.  See the demo at: http://a
 
 #### How to use
 
-You must have [NODE.JS] installed to run the client build.  
-Run "npm install" in the Angular2AspNetCoreStarter folder, and then run "jspm install".
-To build the app files, run the default gulp task.  I recommend running the watch tasks to update any changes automatically.
+You must have [NODE.JS] installed to run the client build.
+Open a command prompt from the root folder of the project and execute the following scripts in order:
+
+    - npm install
+    - jspm install
+    - dnvm install 1.0.0-rc1-update1
+    - dnvm use default -p
+    - gulp
+    - npm start
 
 All client source files should be edited in the *\App* folder.  Do not edit anything in the *\wwwroot\app* folder as this folder is cleaned and replaced with every build.  The static files in *\wwwroot* (index.html, config.js, etc) may be edited.
+To watch for source file changes, run the following script:
 
+    - gulp watch
+    
 Any questions or comments feel free to submit here or drop me a line [@rlangton76].
 
    [routes.config.js]: <https://github.com/ryanlangton/angular2-aspnetcore-starter/blob/master/Angular2AspNetCoreStarter/App/routes.config.ts>
