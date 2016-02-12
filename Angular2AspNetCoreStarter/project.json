@@ -28,6 +28,6 @@
     "**.vspscc"
   ],
   "scripts": {
-    "prepublish": [ "npm install", "jspm install -y", "gulp copy-jspm", "gulp" ]
+    "prepublish": [ ]
   }
 }

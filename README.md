@@ -38,7 +38,7 @@ Open a command prompt from the root folder of the project and execute the follow
     - gulp
     - npm start
 
-All client source files should be edited in the *\App* folder.  Do not edit anything in the *\wwwroot\app* folder as this folder is cleaned and replaced with every build.  The static files in *\wwwroot* (index.html, config.js, etc) may be edited.
+All client source files should be edited in the *\App* folder.  Do not edit anything in the *\wwwroot\app* folder as this folder is cleaned and replaced with every build.  The static files in *\wwwroot* (index.html, boot.js) may be edited.
 To watch for source file changes, run the following script:
 
     - gulp watch
