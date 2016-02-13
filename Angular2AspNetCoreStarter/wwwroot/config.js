@@ -21,6 +21,7 @@ System.config({
     "es6-shim": "github:es-shims/es6-shim@0.34.2",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
     "rxjs": "npm:rxjs@5.0.0-beta.0",
+    "typescript": "npm:typescript@1.7.5",
     "zonejs": "npm:zone.js@0.5.11",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -62,7 +63,7 @@ System.config({
     },
     "npm:angular2@2.0.0-beta.6": {
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
-      "es6-promise": "npm:es6-promise@3.0.2",
+      "es6-promise": "npm:es6-promise@3.1.2",
       "es6-shim": "npm:es6-shim@0.33.13",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "reflect-metadata": "npm:reflect-metadata@0.1.2",
@@ -217,7 +218,7 @@ System.config({
       "inherits": "npm:inherits@2.0.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
-    "npm:es6-promise@3.0.2": {
+    "npm:es6-promise@3.1.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:es6-shim@0.33.13": {
@@ -320,11 +321,11 @@ System.config({
       "indexof": "npm:indexof@0.0.1"
     },
     "npm:zone.js@0.5.11": {
-      "es6-promise": "npm:es6-promise@3.0.2",
+      "es6-promise": "npm:es6-promise@3.1.2",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:zone.js@0.5.14": {
-      "es6-promise": "npm:es6-promise@3.0.2",
+      "es6-promise": "npm:es6-promise@3.1.2",
       "process": "github:jspm/nodelibs-process@0.1.2"
     }
   }
