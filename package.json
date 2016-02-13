@@ -13,12 +13,12 @@
   },
   "jspm": {
     "dependencies": {
-      "angular2": "npm:angular2@2.0.0-beta.2",
+      "angular2": "npm:angular2@2.0.0-beta.6",
       "angular2-polyfill": "npm:angular2-polyfill@^0.0.1",
       "es6-shim": "github:es-shims/es6-shim@^0.34.1",
       "reflect-metadata": "npm:reflect-metadata@0.1.2",
       "rxjs": "npm:rxjs@5.0.0-beta.0",
-      "zonejs": "npm:zone.js@^0.5.10"
+      "zonejs": "npm:zone.js@^0.5.14"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
@@ -27,7 +27,7 @@
     }
   },
   "devDependencies": {
-    "angular2": "2.0.0-beta.2",
+    "angular2": "2.0.0-beta.6",
     "del": "^2.2.0",
     "es6-promise": "^3.0.2",
     "es6-shim": "^0.33.13",
@@ -37,7 +37,7 @@
     "jspm": "^0.16.24",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.0",
-    "zone.js": "0.5.10",
+    "zone.js": "^0.5.14",
     "typescript": "^1.7.5"
   }
 }
